@@ -1,5 +1,5 @@
 # sem1_mini_project
-Help
+
 To start working on this project environment required is a server having Apache as web server, MySql as database and XAMMP(Windows,Apache,MySql and PHP ) as development environment.
 HOW TO DEPLOY LOCALLY.
 Step 1: Click on the link below to download XAMPP
