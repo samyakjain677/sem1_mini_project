@@ -388,7 +388,7 @@ if(isset($_POST['snoEdit']))
                <td><button class='view btn btn-sn btn-primary' id=".$row['Course_id'].">View</button>   
                ";
                ;
-              if($_SESSION['role']=='people')
+              if($_SESSION['role']=='people' || $_SESSION['role']=='admin')
               {
                 echo"         
                 <button class='edit btn btn-sn btn-primary' id=".$row['Course_id'].">Edit</button>";
